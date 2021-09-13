@@ -11,8 +11,8 @@ body {
 h1  {
   font-family: 'Varela';
   color: #4c5c68;
-  font-size: ;
-  line-height: ;
+  /* // font-size:
+  // line-height: */
 }
 
 a {
@@ -33,6 +33,7 @@ a:hover {
 
 .card img {
   width: 150px;
+  background-color: whitesmoke;
 
   }
 
