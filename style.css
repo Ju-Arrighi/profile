@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Varela&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Varela&display=swap'); */
 
 body {
   background-color: #c5c3c6;
@@ -34,8 +34,11 @@ a:hover {
 .card img {
   width: 150px;
   background-color: whitesmoke;
+}
 
-  }
+.footer {
+  background-color: teal;
+}
 
 .inline {
   List-style: none;
