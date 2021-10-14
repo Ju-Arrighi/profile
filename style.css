@@ -1,16 +1,17 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Varela&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@900&display=swap');
 
 body {
-  background-color: #c5c3c6;
-  color: #46494c;
+  background-color: rgb(26, 49, 66);
+  color: rgb(210, 191, 183);
   font-family: 'Open Sans';
   text-align: center;
 }
 
 h1  {
-  font-family: 'Varela';
-  color: #4c5c68;
+  font-family: 'Elsie', cursive;
+  color: rgb(210, 191, 183);
   /* // font-size:
   // line-height: */
 }
@@ -33,7 +34,7 @@ a:hover {
 
 .card img {
   width: 150px;
-  background-color: whitesmoke;
+  background-color: rgb(26, 49, 66);
 }
 
 .footer {
@@ -67,6 +68,7 @@ a:hover {
 
 .container {
   width: 600px;   /* This sets the width */
+  height: 800px;
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
