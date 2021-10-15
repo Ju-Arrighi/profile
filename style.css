@@ -26,10 +26,11 @@ a:hover {
 }
 
 .card {
-  background: #dcdcdd;
   border: 10px;
   border-radius: 5px;
   box-shadow: 50px #4c5c68;
+  background: rgb(26, 49, 66);
+  color: rgb(210, 191, 183);
 }
 
 .card img {
@@ -70,6 +71,8 @@ a:hover {
   width: 600px;   /* This sets the width */
   height: 800px;
   margin: 0 auto; /* This automatically sets left/right margins */
+  background-color: rgb(26, 49, 66);
+  color: rgb(210, 191, 183);
 }
 
 @media (max-width: 960px) {
