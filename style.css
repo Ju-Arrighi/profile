@@ -1,11 +1,12 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Varela&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Elsie:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 body {
   background-color: rgb(26, 49, 66);
   color: rgb(210, 191, 183);
-  font-family: 'Open Sans';
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 }
 
@@ -17,12 +18,12 @@ h1  {
 }
 
 a {
-  color: #46494c;
+  color: rgb(210, 191, 183);
   text-decoration: none;
 }
 
 a:hover {
-  color: #1985a1;
+  color: whitesmoke
 }
 
 .card {
@@ -46,7 +47,6 @@ a:hover {
   List-style: none;
   text-align: center;
   padding-left: 0px;
-
 }
 
 .inline li {
@@ -54,13 +54,8 @@ a:hover {
   padding: 0px 20px;
 }
 
-.class p {
-  color: #1985a1;
-  font-weight: bold;
-}
-
 .img-circle {
-  border-radius: 50%;
+  border-radius: 25%;
 }
 
 .class fab fa-linkedin {
