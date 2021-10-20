@@ -4,10 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 body {
-  background-color: rgb(26, 49, 66);
-  color: rgb(210, 191, 183);
-  font-family: 'Source Sans Pro', sans-serif;
+  background-color: grey;
   text-align: center;
+}
+
+#demo {
+background: #D2BFB7;
+background: -moz-linear-gradient(-45deg, #D2BFB7 0%, #1C6EA4 66%, #1A3142 100%);
+background: -webkit-linear-gradient(-45deg, #D2BFB7 0%, #1C6EA4 66%, #1A3142 100%);
+background: linear-gradient(135deg, #D2BFB7 0%, #1C6EA4 66%, #1A3142 100%);
 }
 
 h1  {
@@ -34,13 +39,22 @@ a:hover {
   color: rgb(210, 191, 183);
 }
 
+.card-projects {
+  border: 10px;
+  border-radius: 5px;
+  box-shadow: 50px #4c5c68;
+  background: rgb(26, 49, 66);
+  color: rgb(210, 191, 183);
+  text-align: center;
+}
 .card img {
   width: 150px;
   background-color: rgb(26, 49, 66);
 }
 
 .footer {
-  background-color: teal;
+  background-color: rgb(210, 191, 183);
+  color:  rgb(26, 49, 66);
 }
 
 .inline {
@@ -68,6 +82,7 @@ a:hover {
   margin: 0 auto; /* This automatically sets left/right margins */
   background-color: rgb(26, 49, 66);
   color: rgb(210, 191, 183);
+  box-shadow: whitesmoke;
 }
 
 @media (max-width: 960px) {
