@@ -55,7 +55,7 @@ a:hover {
 }
 
 .footer {
-  background-color: rgb(210, 191, 183);
+  /* background-color: rgb(210, 191, 183); */
   color:  rgb(26, 49, 66);
 }
 
@@ -64,6 +64,7 @@ a:hover {
   text-align: center;
   padding-left: 0px;
   color: rgb(26, 49, 66);
+  font-size: 30px;
 }
 
 #logo {
